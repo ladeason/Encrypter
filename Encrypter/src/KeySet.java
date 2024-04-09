@@ -32,6 +32,7 @@ public class KeySet {
     public Key getPrivateKey() {
         return privateKey;
     }
+
     private int gcd(int a, int b) {
         if (a == 0) {
             return b;

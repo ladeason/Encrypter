@@ -88,8 +88,8 @@ public class Main {
         System.out.println("Decrypted message: \n" + bobDecryptedMsg + "\n");
     }
     private static void generateKeys() {
-        System.out.println("Enter two prime numbers, p and q: " +
-                "\n(note: p != q and p * q > 126 (ascii))");
+        System.out.println("Enter two unique prime numbers, p and q: " +
+                "\n(note: p * q > 126)");
         int p = sc.nextInt(), q = sc.nextInt();
         sc.nextLine();
 
